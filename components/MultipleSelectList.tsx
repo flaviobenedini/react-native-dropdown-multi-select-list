@@ -46,6 +46,7 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
         save = 'key',
         dropdownShown = false,
         defaultOption,
+        isDropdownOpened
     }) => {
 
     const oldOption = React.useRef(null)
@@ -66,6 +67,8 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
             useNativeDriver:false,
             
         }).start()
+
+        isDropdownOpened(true)
     }
     const slideup = () => {
         
@@ -75,6 +78,8 @@ const MultipleSelectList: React.FC<MultipleSelectListProps> = ({
             useNativeDriver:false,
             
         }).start(() => setDropdown(false))
+
+        isDropdownOpened(false)
     }
 
     React.useEffect( () => {

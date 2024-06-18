@@ -37,7 +37,8 @@ const SelectList: React.FC<SelectListProps> =  ({
         onSelect = () => {},
         save = 'key',
         dropdownShown = false,
-        fontFamily
+        fontFamily,
+        isDropdownOpened
     }) => {
 
     const oldOption = React.useRef(null)
@@ -57,6 +58,8 @@ const SelectList: React.FC<SelectListProps> =  ({
             useNativeDriver:false,
             
         }).start()
+
+        isDropdownOpened(true)
     }
     const slideup = () => {
         
@@ -66,6 +69,8 @@ const SelectList: React.FC<SelectListProps> =  ({
             useNativeDriver:false,
             
         }).start(() => setDropdown(false))
+
+        isDropdownOpened(false)
     }
 
     React.useEffect( () => {
