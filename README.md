@@ -258,18 +258,3 @@ const App = () => {
 <br>
 
 
-# ▶️ Watch Video
-
-[![Watch the video](https://i.imgur.com/K8Lt2h4.png)](https://www.youtube.com/watch?v=J9raEY-1KPQ&t=499s)
-
-<br>
-
-# 💲 Would you like to support me?
-
-If you would like me come up with similar packages, buy me a cup of coffee to boost my energy.
-<br><br>
-[![Paypal](https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png)](https://paypal.me/danishamindar)
-<br><br>
-For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@danish1658/react-native-dropdown-select-list)
-
-<br>
