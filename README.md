@@ -48,14 +48,14 @@ Multiple Select List            |  Select List
 # 🔌 Installation
 
 ```sh
-$ npm install react-native-dropdown-select-list
+$ npm i @flavio.benedini/react-native-dropdown-multi-select-list
 
 ```
 
 OR
 
 ```sh
-$ yarn add react-native-dropdown-select-list
+$ yarn add @flavio.benedini/react-native-dropdown-multi-select-list
 ```
 
 <br>
